@@ -1,4 +1,7 @@
 # Certificate_Authority_setup
+
+This report focuses on creating an independent root Certificate Authority (CA), eliminating the need for commercial CA involvement and financial transactions. Root CAs are pivotal in issuing digital certificates, certifying ownership of public keys. While commercial CAs like VeriSign dominate, this project enables us to become a self-reliant root CA. This empowers us to generate self-signed certificates for various purposes, without external CA dependence. Root CA certificates, unconditionally trusted and preloaded in software, play a crucial role in digital security. This initiative facilitates the creation of self-signed root CA certificates, enhancing our ability to issue certificates securely and independently.
+
  ![image](https://github.com/4gentP/Certificate_Authority_setup/assets/69531842/8b80f534-c37c-4b9d-8593-18984824b7c4)
 
 Initially opening PKILabServer.com, throws an error as the certificate for the webpage is not a trusted certificate under the existing CA embedded in Firefox.
